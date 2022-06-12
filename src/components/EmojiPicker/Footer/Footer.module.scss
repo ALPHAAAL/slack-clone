@@ -1,0 +1,52 @@
+@import '../../../styles/index.scss';
+
+.container {
+    min-height: 60px;
+    border-top: 1px solid rgba(0, 0, 0, .15);
+    flex: 0 0 auto;
+    background: rgb(var(--foreground-min-solid));
+
+    button {
+        background-color: transparent;
+        border-width: 0;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .addEmojiBtn {
+        padding: 0 12px 1px;
+        height: 28px;
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--primary-foreground);
+
+        border: 1px solid rgba(var(--primary-foreground), 0.3);
+        background: rgb(var(--primary-background));
+
+        position: absolute;
+        bottom: 16.5px;
+        left: 14px;
+        border-radius: 4px;
+    }
+
+    .emojiBtn {
+        position: absolute;
+        bottom: 14.5px;
+        right: 16px;
+        
+        border-radius: 10px;
+
+        font-size: 1.2rem;
+        padding: 3px;
+
+        button {
+            border-radius: 10px;
+            padding: 2px 3px;
+        }
+
+        button:hover {
+            background-color: rgb(var(--primary-background));
+        }
+    }
+
+}

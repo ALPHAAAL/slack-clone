@@ -1,0 +1,20 @@
+@import '../../styles/index.scss';
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    width: 360px;
+    border-radius: 6px;
+    height: 468px;
+    background-color: rgb(var(--primary-background));
+    color: rgb(var(--primary-foreground));
+    
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}

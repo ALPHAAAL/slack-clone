@@ -1,0 +1,25 @@
+@import '../../../../styles/index.scss';
+
+.container {
+    background-color: transparent;
+    border-width: 0;
+    padding: 0;
+
+    padding: 4px 5.8px 6px;
+    margin-right: 3px;
+    cursor: pointer;
+
+    svg {
+        height: 20px;
+        width: 20px;
+        color: rgb(var(--foreground-high-solid));
+    }
+}
+
+.selected {
+    svg {
+        color: rgb(var(--primary-foreground));
+    }
+
+    border-bottom: solid 3px #007a5a;
+}

@@ -1,0 +1,23 @@
+export const ACTIVITIES = 'ACTIVITIES';
+export const ANIMALS_AND_NATURE = 'ANIMALS_AND_NATURE';
+export const CUSTOM = 'CUSTOM';
+export const FLAGS = 'FLAGS';
+export const FOOD_AND_DRINK = 'FOOD_AND_DRINK';
+export const FREQUENTLY_USED = 'FREQUENTLY_USED';
+export const OBJECTS = 'OBJECTS';
+export const SMILEYS_AND_PEOPLE = 'SMILEYS_AND_PEOPLE';
+export const SYMBOLS = 'SYMBOLS';
+export const TRAVEL_AND_PLACES = 'TRAVEL_AND_PLACES';
+
+export const TABS = {
+    FREQUENTLY_USED,
+    SMILEYS_AND_PEOPLE,
+    ANIMALS_AND_NATURE,
+    FOOD_AND_DRINK,
+    TRAVEL_AND_PLACES,
+    ACTIVITIES,
+    OBJECTS,
+    SYMBOLS,
+    FLAGS,
+    CUSTOM
+};

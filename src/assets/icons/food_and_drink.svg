@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+  <g fill="none">
+    <path
+      stroke="currentcolor"
+      stroke-width="1.5"
+      d="M3.25 10.75v-2.5c0-5.25 4.75-6 6.75-6s6.75.75 6.75 6v2.5m-8.476 0H3.5a1.75 1.75 0 1 0 0 3.5h13a1.75 1.75 0 1 0 0-3.5h-3.274c-.14 1.419-.906 2.5-2.476 2.5-1.57 0-2.335-1.081-2.476-2.5Z"
+    />
+    <circle cx="7.25" cy="5.75" r=".75" fill="currentcolor" />
+    <circle cx="10" cy="5.75" r=".75" fill="currentcolor" />
+    <circle cx="12.75" cy="5.75" r=".75" fill="currentcolor" />
+    <path
+      stroke="currentcolor"
+      stroke-width="1.5"
+      d="M3.5 8.25H17m-13.75 6v1a2 2 0 0 0 2 2h9.5a2 2 0 0 0 2-2v-1"
+    />
+  </g>
+</svg>

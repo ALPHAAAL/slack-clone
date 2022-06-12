@@ -1,0 +1,17 @@
+:root[data-theme="light"] {
+    --primary-foreground: 209, 210, 211;
+    --primary-background: 26, 29, 33;
+}
+
+:root[data-theme="dark"] {
+    --primary-foreground: 209, 210, 211;
+    --primary-background: 26, 29, 33;
+    --foreground-high-solid: 129, 131, 133;
+    --foreground-min-solid: 34, 37, 41;
+    --highlight: 29, 155, 209;
+    --highlight-hover: 64, 179, 228;
+}
+
+html {
+    font-size: 15px;
+}
